@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		55CBEF1B21ADB72400E963B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBEF1A21ADB72400E963B9 /* AppDelegate.swift */; };
-		55CBEF1D21ADB72400E963B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBEF1C21ADB72400E963B9 /* ViewController.swift */; };
 		55CBEF2021ADB72400E963B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CBEF1E21ADB72400E963B9 /* Main.storyboard */; };
 		55CBEF2221ADB72500E963B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CBEF2121ADB72500E963B9 /* Assets.xcassets */; };
 		55CBEF2521ADB72500E963B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CBEF2321ADB72500E963B9 /* LaunchScreen.storyboard */; };
+		55CBEF2F21ADBA8C00E963B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBEF2C21ADBA8C00E963B9 /* ViewController.swift */; };
+		55CBEF3021ADBA8C00E963B9 /* AudioUnitFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBEF2D21ADBA8C00E963B9 /* AudioUnitFactory.swift */; };
+		55CBEF3121ADBA8C00E963B9 /* DelayedReverb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CBEF2E21ADBA8C00E963B9 /* DelayedReverb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55CBEF1721ADB72400E963B9 /* AudioEngineUnit Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioEngineUnit Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CBEF1A21ADB72400E963B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55CBEF1C21ADB72400E963B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55CBEF1F21ADB72400E963B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55CBEF2121ADB72500E963B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55CBEF2421ADB72500E963B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55CBEF2621ADB72500E963B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CBEF2C21ADBA8C00E963B9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55CBEF2D21ADBA8C00E963B9 /* AudioUnitFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioUnitFactory.swift; sourceTree = "<group>"; };
+		55CBEF2E21ADBA8C00E963B9 /* DelayedReverb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayedReverb.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				55CBEF1A21ADB72400E963B9 /* AppDelegate.swift */,
-				55CBEF1C21ADB72400E963B9 /* ViewController.swift */,
+				55CBEF2D21ADBA8C00E963B9 /* AudioUnitFactory.swift */,
+				55CBEF2E21ADBA8C00E963B9 /* DelayedReverb.swift */,
+				55CBEF2C21ADBA8C00E963B9 /* ViewController.swift */,
 				55CBEF1E21ADB72400E963B9 /* Main.storyboard */,
 				55CBEF2121ADB72500E963B9 /* Assets.xcassets */,
 				55CBEF2321ADB72500E963B9 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CBEF1D21ADB72400E963B9 /* ViewController.swift in Sources */,
+				55CBEF3121ADBA8C00E963B9 /* DelayedReverb.swift in Sources */,
+				55CBEF3021ADBA8C00E963B9 /* AudioUnitFactory.swift in Sources */,
+				55CBEF2F21ADBA8C00E963B9 /* ViewController.swift in Sources */,
 				55CBEF1B21ADB72400E963B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
